@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Notes</title>
+    <!-- fonte league spartan início -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+    <!-- fonte league spartan fim -->
+    <!-- fonte quicksand início -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <!-- fonte quicksand fim -->
+    <!-- fonte poppins início -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- fonte poppins fim -->
+    <!-- bootstrap icons início -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- bootstrap icons fim -->
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div id="logo-mobile">
+            <h1>custom <span>n o t e s</span></h1>
+        </div>
+        <div id="search-container">
+            <i class="bi bi-search"></i>
+            <input type="text" id="search-input" placeholder="Buscar nota">
+        </div>
+        <div id="logo-desktop">
+        <h1>custom<span>n o t e s</span></h1>
+        </div>
+        <div id="export-notes-all">
+        <i class="bi bi-download"></i>
+        <button id="export-notes">
+            BAIXAR CSV
+        </button>
+        </div>
+    </header>
+    <div id="add-note-container">
+        <input type="text" id="note-content" placeholder="Escreva a sua anotação">
+        <button class="add-note"><i class="bi bi-plus-lg"></i></button>
+    </div>
+    <div id="notes-container"></div>
+</body>
+</html>
