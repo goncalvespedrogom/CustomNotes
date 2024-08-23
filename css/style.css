@@ -132,8 +132,7 @@ h1 span{
     padding: 2rem;
     gap: 2rem;
     margin-top: 30px;
-    margin-left: 35px;
-    margin-right: 35px;
+    justify-content: center;
 }
 
 .note{ 
@@ -255,10 +254,6 @@ h1 span{
     }
 
     #notes-container{
-        padding: 0rem;
-        margin-left: 5px;
-        margin-right: 5px;
-        justify-content: center;
         margin-bottom: 40px;
     }
 }
@@ -287,10 +282,6 @@ h1 span{
     }
 
     #notes-container{
-        padding: 0rem;
-        margin-left: 5px;
-        margin-right: 5px;
-        justify-content: center;
         margin-bottom: 40px;
         margin-top: 40px;
     }
